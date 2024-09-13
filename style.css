@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+header{
+    margin-bottom: 128px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 128px;
+    margin-bottom: 257px;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    font-size: 64px;
+    color: white;
+}
+
+.right,  .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
